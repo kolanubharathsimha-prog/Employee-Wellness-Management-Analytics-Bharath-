@@ -1,0 +1,28 @@
+AI MODELS USED — Employee Wellness Management & Analytics
+============================================================
+
+1. langdetect
+   Detects the language of a journal entry.
+
+2. Google Translate (deep-translator)
+   Translates non-English entries to English for analysis.
+
+3. spaCy — xx_sent_ud_sm
+   Multilingual sentence splitting, tokenization, lemmatization.
+
+4. VADER (vaderSentiment)
+   Rule-based sentiment scoring: Positive / Negative / Neutral.
+
+5. BERT — bhadresh-savani/bert-base-go-emotion
+   Transformer emotion classifier; mapped to the app's 6 emotions
+   (Happy, Sad, Stress, Angry, Fear, Neutral).
+
+6. Qwen2.5-0.5B-Instruct (local)
+   Powers the Wellness Chat conversational assistant.
+
+7. GPT-OSS-20B (via Groq API)
+   Generates personalized journal recommendations (breathing/
+   journaling/resource suggestions).
+
+8. DeepFace
+   Facial emotion recognition for the Live Face Scanner feature.
