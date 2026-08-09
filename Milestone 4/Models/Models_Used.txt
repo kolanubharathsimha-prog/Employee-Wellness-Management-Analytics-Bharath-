@@ -1,4 +1,4 @@
-AI MODELS USED — Employee Wellness Management & Analytics
+ MODELS USED — Employee Wellness Management & Analytics
 ============================================================
 
 1. langdetect
@@ -7,7 +7,7 @@ AI MODELS USED — Employee Wellness Management & Analytics
 2. Google Translate (deep-translator)
    Translates non-English entries to English for analysis.
 
-3. spaCy — xx_sent_ud_sm
+3. spaCy 
    Multilingual sentence splitting, tokenization, lemmatization.
 
 4. VADER (vaderSentiment)
